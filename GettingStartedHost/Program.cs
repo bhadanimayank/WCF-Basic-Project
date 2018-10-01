@@ -34,6 +34,7 @@ namespace GettingStartedHost
 
                 // Close the ServiceHostBase to shutdown the service.
                 selfHost.Close();
+
             }
             catch (CommunicationException ce)
             {
